@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kage sakura</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@300&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Barcode+39&amp;display=swap">
+  </head>
+  <body>
+    <div id="header">
+      <div id="header-wrap">
+        <h1><span>Kage sakura</span></h1>
+        <div id="top-bar"><ul>
+          <li onclick="openPage(0)">Home</li>
+          <li onclick="openPage(1)">About me</li>
+          <li onclick="openPage(2)">Works</li>
+          <li onclick="openPage(3)">Contact</li>
+        </ul></div>
+      </div>
+    </div>
+    <div class="page">
+      <div class="content">
+        <div style="padding:10px 0px">
+          ホームだよん
+        </div>
+        <div style="padding:10px 0px">
+          ここには、まだ何もない(?)
+        </div>
+      </div>
+    </div>
+    <div class="page" style="display:none">
+      <div class="content">
+        <div style="padding:10px 0px">
+          JavaScriptが好きなひとです。<br>
+          小学校高学年ごろからプログラミングして遊んでいました。<br>
+          まぁ、VBSとかですけど(<br>
+          中学校に入って、JavaScriptでDiscordのボットを作って遊んだり、Unityを使ってC#でゲームを作ったりなどしました。<br>
+          最近は、C++やRustにもはまっています。
+        </div>
+        <div style="padding:10px 0px">
+          プログラミング以外で好きなことは、2つあって、<br>
+          1つめは睡眠です。寝るとまじで快感(?)<br>
+          2つめは雑談です。話すことは苦手ですが、好きなんです(下手の横好き？)<br>
+          ちなみに、好きな食べ物は、しょっぱいものと甘いものです。<br>
+          磯辺焼きとか、ポテトチップスとか、ガムシロップとか、チョコレートとか...
+        </div>
+      </div>
+    </div>
+    <div class="page" style="display:none">
+      <div style="padding:1em;max-width:calc(1040px - 17em);margin:auto">
+        <div>作った作品などを載せる予定です(?)</div>
+        <div class="img" style="height: 200px; width: 200px; right: calc(-100% + 320px); background-image:url('twitter.png');"></div>
+        <div class="img" style="height: 150px; width: 150px; background-image: url('github.png');"></div>
+        <div class="img" style="height: 250px; width: 250px; right: calc(-100% + 250px); background-image:url('twitter.png');"></div>
+        <div class="img" style="height: 200px; width: 200px; background-image: url('github.png'); left:  50px"></div>
+        <div class="img" style="height: 80px;  width: 80px;  right: calc(-50% + 40px); background-image:url('twitter.png');"></div>
+        <div class="img" style="height: 150px; width: 150px; background-image:url('twitter.png');"></div>
+        <div class="img" style="height: 300px; width: 300px; right: calc(-100% + 300px); background-image: url('github.png');"></div>
+        <div class="img" style="height: 140px; width: 140px; background-image: url('github.png');"></div>
+        <div class="img" id="end" style="height:400px; width:400px; margin:auto; background-image:url('twitter.png');"></div>
+      </div>
+    </div>
+    <div class="page" style="display:none">
+      <div style="padding-top: 150px">
+        <div class="contact">
+          <div class="envelope">
+            <div class="top"><div class="outer"><div class="inner"></div></div></div>
+            <div class="bottom"></div>
+            <div class="left"></div>
+            <div class="right"></div>
+            <div class="cover"></div>
+            <div class="paper"><table style="margin:auto">
+              <tr><td>Twitter:</td><td><a href="https://twitter.com/_SEG_FAULT">_SEG_FAULT</a></td></tr>
+              <tr><td>Github:</td><td><a href="https://github.com/kage-sakura">kage-sakura</a></td></tr>
+              <tr><td>Discord:</td><td>靈/影桜#1137</td></tr>
+            </table></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
